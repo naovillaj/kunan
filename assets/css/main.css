@@ -1,0 +1,10 @@
+input[type=text] {
+    border: none;
+    border-bottom: 2px solid #707274;
+}
+
+input[type="radio"] {
+    -webkit-appearance: checkbox; /* Chrome, Safari, Opera */
+    -moz-appearance: checkbox;    /* Firefox */
+    -ms-appearance: checkbox;     /* not currently supported */
+}
