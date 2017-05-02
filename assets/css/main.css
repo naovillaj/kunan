@@ -2,6 +2,11 @@
   font-family: 'Raleway';
 }
 
+body{
+  margin: 0;
+  padding: 0;
+}
+
 #rojo{
   color: red;
 }
@@ -13,6 +18,10 @@
 input[type=text] {
     border: none;
     border-bottom: 2px solid #707274;
+}
+
+input:focus, textarea:focus {
+    outline: none;
 }
 
 input[type="radio"] {
